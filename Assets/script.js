@@ -7,7 +7,7 @@ var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialChar = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?", "~", "@", "#", "$", "^", "(", ")", "_", "=", "`", "|", "{", "}", "[", "]", "'", "?"];
 
 // Variable Declaration 
-var confirmLength = "";
+// var confirmLength = "";
 var confirmLowerCase;
 var confirmUpperCase;
 var confirmNumber;
@@ -19,7 +19,7 @@ function generatePassword() {
 
   // Loop if answer is outside the parameters 
   while (confirmLength <= 7 || confirmLength >= 129) {
-    alert("Password length must be between 8-128 characters. Please try again.");
+    alert("Password length must be between 8-128 characters. Please choose again.");
     var confirmLength = (prompt("How many characters would you like your password to contain?"));
   }
 
@@ -72,15 +72,6 @@ function generatePassword() {
     console.log(randomPassword)
   }
   return randomPassword;
-}
-
-// Write password to the #password input
-
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
 }
 
 // Get references to the #generate element
