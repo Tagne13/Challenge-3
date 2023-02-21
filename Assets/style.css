@@ -1,4 +1,3 @@
-/* No changes required to CSS elements for this project */
 *,
 *::before,
 *::after {
@@ -119,7 +118,13 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* Added code to realign heading into center of display */
 @media (max-width: 690px) {
+
+  h2 {
+    text-align: center;
+  }
+
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
@@ -132,6 +137,11 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
+
+  h2 {
+    text-align: center;
+  }
+
   .btn {
     font-size: 0.8rem;
   }
