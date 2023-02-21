@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is meant to provide prospective employers the ability to view my work samples and experience. The current version of this application was created using only HTML and CSS languages, per the criteria of the assignment. It was built to be responsive to all viewports. The navigation links will take all viewers to the corresponding sections on the page. The links within the work section will take viewers to the corresponding applications. In this current version placeholders have been placed in lieu of future projects that are to be included throughout the course of the bootcamp. The layout of the page includes the use of flexbox. I practiced some more advanced CSS that was not necessarily part of the criteria for the assignment. I feel I have a better understanding of flexbox now after having used it in this project. 
+This application is meant to generate random passwords using JavaScript based upon criteria chosen by the user. It was built to be responsive to all viewports. When the button is clicked, users will be asked how many characters to include in the password. Once chosen, users will then be asked if they wish to include lowercase alphabetic characters, uppercase alphabetic characters, numbers, and/or special characters. Upon selecting the desired criteria, a random password will then be generated and displayed. While and for loops were utilized in order to meet the criteria of the assignment. I feel I now have a better understanding of the JavaScript coding language after having used it in this project. 
 
 ## Installation
 
